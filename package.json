@@ -26,7 +26,7 @@
 		"@csstools/normalize.css": "^12.0.0",
 		"@faker-js/faker": "^8.0.2",
 		"@melt-ui/pp": "^0.1.2",
-		"@melt-ui/svelte": "^0.37.2",
+		"@melt-ui/svelte": "^0.37.4",
 		"@mermaid-js/mermaid-cli": "^10.3.0",
 		"@playwright/test": "^1.37.0",
 		"@prisma/client": "5.0.0",
