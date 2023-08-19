@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}",
+            "skipFiles": [
+                "<node_internals>/**",
+                "${workspaceFolder}/.svelte-kit/**",
+                // "${workspaceFolder}/node_modules/**/*.js",
+                // "**/node_modules/**",
+                "**/*.svelte?t=*"
+            ]
+        },
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**",
+                "${workspaceFolder}/.svelte-kit/**",
+                // "${workspaceFolder}/node_modules/**",
+                // "**/node_modules/**",
+                "**/*.svelte?t=*"
+            ],
+            "type": "node"
+        },
+    ],
+    "compounds": [
+        {
+            "name": "Attach Both",
+            "configurations": [
+                "Attach to Chrome",
+                "Attach"
+            ]
+        }
+    ]
+}

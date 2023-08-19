@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "studio",
+			"problemMatcher": [],
+			"label": "studio",
+			"detail": "prisma studio",
+			"isBackground": true,
+			"runOptions": {
+				"runOn": "default"
+			},
+			"presentation": {
+				"reveal": "silent"
+			},
+			"icon": {
+				"id": "database",
+				"color": "terminal.ansiCyan"
+			}
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "dev",
+			"detail": "vite dev",
+			"isBackground": true,
+			"runOptions": {
+				"runOn": "default"
+			},
+			"icon": {
+				"id": "run",
+				"color": "terminal.ansiGreen"
+			}
+		}
+	]
+}

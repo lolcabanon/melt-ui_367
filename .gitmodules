@@ -1,0 +1,3 @@
+[submodule "src/lib/styles/sakura"]
+	path = src/lib/styles/sakura
+	url = https://github.com/oxalorg/sakura

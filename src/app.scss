@@ -1,0 +1,19 @@
+/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+
+@use 'lib/styles/sakura/scss/sakura-lfv' as *;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  /* width: auto; */
+  /* max-width: none; */
+  display: flex;
+  flex-direction: column;
+}
+
+.table-wrapper {
+  @include scrollbar($color-text, $color-bg, 1);
+}
